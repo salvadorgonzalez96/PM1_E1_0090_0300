@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PM1_E1_0090_0300">
         <activity
+            android:name=".ActivityUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityListView"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityInsert"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

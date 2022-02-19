@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Salvador-Lenovo/AndroidStudioProjects/PM1_E1_0090_0300/app/src/main/res/layout/activity_insert.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/Salvador-Lenovo/AndroidStudioProjects/PM1_E1_0090_0300/app/src/main/res/layout/activity_list_view.xml" value="0.1641337386018237" />
         <entry key="..\:/Users/Salvador-Lenovo/AndroidStudioProjects/PM1_E1_0090_0300/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/Salvador-Lenovo/AndroidStudioProjects/PM1_E1_0090_0300/app/src/main/res/layout/activity_update.xml" value="0.1641337386018237" />
       </map>
     </option>
   </component>

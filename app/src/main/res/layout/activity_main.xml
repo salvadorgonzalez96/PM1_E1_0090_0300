@@ -4,23 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#85C1E9"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnAgregarContacto"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFC107"
+        android:backgroundTint="#FFC107"
+        android:clickable="true"
+        android:text="Agregar Contacto"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnListaContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Lista de Contactos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="78dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="381dp"
+        android:layout_height="259dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAgregarContacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/tvSalvador"
+        android:layout_width="357dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="68dp"
+        android:text="Salvador Gonzalez 20183002090"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListaContactos" />
+
+    <TextView
+        android:id="@+id/tvRobin"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Robin Giron 201810020300"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSalvador" />
+
+    <TextView
+        android:id="@+id/tvClase"
+        android:layout_width="184dp"
+        android:layout_height="25dp"
+        android:text="Programacion Movil 1"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
