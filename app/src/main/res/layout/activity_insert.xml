@@ -141,4 +141,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.422" />
+
+    <ImageButton
+        android:id="@+id/ibFoto"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:onClick="storeImage"
+        app:srcCompat="@mipmap/contacto"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="264dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
